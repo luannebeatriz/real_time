@@ -1,0 +1,48 @@
+body {
+  background: rgb(106, 106, 212);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  color: black;
+  background: white;
+
+  /* BORDER-RADIUS: Serve para arredondar a área escrita etc... */
+  border-radius: 10px;
+
+  /* PADDING: Serve para empurrar o objeto pra dentro. */
+  padding: 15px;
+
+  /* WIDTH: LARGURA DA ÁREA. */
+
+  width: 500px;
+
+  /* MARGIN: PARA CENTRALIZAR. */
+  margin: auto;
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+}
+
+div {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+#imagem {
+  width: 250px;
+  height: 250px;
+}
+
+#msg {
+  margin-bottom: 10px;
+}
